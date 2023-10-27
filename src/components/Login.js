@@ -5,10 +5,10 @@ import {Button, Form, Card} from "react-bootstrap";
 function Login() {
   return (
 
-    <Card style={{ width: '40%' }} className='mx-auto'> 
+    <Card style={{ width: '40%' }} className='mx-auto card rounded-sm shadow-sm'> 
 
     <Card.Body>
-      <Card.Title>Login</Card.Title>
+      <Card.Title className='text-center'><h4>Login</h4></Card.Title>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -22,14 +22,14 @@ function Login() {
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
+      
+      </Form>
+    
+      <Button variant="dark" type="submit" className='w-50'>
         Submit
       </Button>
-    </Form>
-      <Button variant="primary">Go somewhere</Button>
+    
+        
     </Card.Body>
   </Card>
   )

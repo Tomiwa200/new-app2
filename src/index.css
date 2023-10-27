@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+
 }
 
 code {
@@ -13,13 +13,20 @@ code {
     monospace;
 }
 
-  
+  .routes {
+    min-height: 80vh;
+  }
 
 footer {
+  position: relative;
   background-color: rgb(145, 137, 137);
   color: rgb(48, 34, 34);
+  bottom: 0;
 }
 
+ .card {
+    margin-top: 8rem;
+}
 
 footer li {
   padding: 0;
