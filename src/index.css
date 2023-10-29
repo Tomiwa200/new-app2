@@ -18,12 +18,16 @@ code {
   }
 
 footer {
-  position: relative;
+  display: block;
+  right: 0;
   background-color: rgb(145, 137, 137);
   color: rgb(48, 34, 34);
   bottom: 0;
 }
 
+  Navbar {
+    display: block
+  }
  .card {
     margin-top: 8rem;
 }
