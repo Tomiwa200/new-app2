@@ -5,7 +5,7 @@ import {Button, Form, Card} from "react-bootstrap";
 function Login() {
   return (
 
-    <Card style={{ width: '40%' }} className='mx-auto card rounded-sm shadow-sm'> 
+    <Card style={{ width: '60%' }} className='mx-auto card rounded-sm shadow-sm'> 
 
     <Card.Body>
       <Card.Title className='text-center'><h4>Login</h4></Card.Title>

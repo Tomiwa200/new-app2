@@ -4,8 +4,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer>
-        <div className=' row px-3 '>
+    <footer  className='footer mt-5 pt-5 '>
+       <div className='container'>
+        <div className=' row '>
+          <div className='col-md-3 mb-4'><h6> BRAND</h6></div>
           <section className='col-lg-3'>
           <h5>Contact Us</h5>
           <ul>
@@ -23,6 +25,7 @@ function Footer() {
           </ul>
           </section>
 
+        </div>
         </div>
     </footer>
   )

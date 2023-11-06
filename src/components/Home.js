@@ -4,11 +4,11 @@ import { Container } from 'react-bootstrap';
 
 function Home() {
   return (
-    <Container className='mx-auto mt-4'>
+    <Container className='mt-4 mx-auto'>
       <img 
       src={houseIcon}
       alt='House Icon'
-      
+      className='w-50'
       />
       
       <p className='home'>This is the Homepage</p>
